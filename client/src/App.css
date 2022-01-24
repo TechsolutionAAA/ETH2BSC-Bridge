@@ -1,0 +1,282 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-color);
+  font-family: "Oswald", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page {
+  margin-top: 3%;
+  max-width: 80%;
+  font-family: "Oswald", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-stack-color {
+  flex: 10;
+  width: 100%;
+  margin-top: 6%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bridge-workspace {
+  padding-left: 5%;
+  width: 60%;
+  flex: 6;
+}
+
+.bridge-workspace > div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.bridge-dashboard {
+  margin-bottom: 6%;
+}
+
+.floki-wallpaper {
+  width: 40%;
+  flex: 4;
+}
+
+.redfloki-main-character {
+  width: 100%;
+}
+
+.header {
+  background-color: var(--background-color);
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 1%;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-content {
+  width: 80%;
+  justify-content: space-between;
+}
+
+.theme-input {
+  border-style: solid;
+  padding: 10px;
+  font-size: 15px;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: red;
+  text-shadow: 0px 0px 0px rgb(42 42 42 / 75%);
+  box-shadow: inset 0px 0px 5px 0px rgb(252 73 73 / 76%);
+  font-weight: normal;
+  font-family: cursive;
+}
+
+.theme-input:focus {
+  border-color: red;
+}
+
+.logo-contaienr {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.logo {
+  margin-top: 4%;
+}
+
+.hr {
+  border: 0;
+  width: 100%;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(124, 124, 124),
+    transparent
+  );
+  opacity: 0.7;
+  z-index: 0;
+}
+
+.App-particles__container {
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 0;
+}
+
+.App-particles__container canvas {
+  transition: 0.2s all ease-in-out;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.title-banner {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.h1 {
+  justify-content: flex-start;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  color: #34343a;
+}
+
+.bridge-wordspace {
+  justify-content: center;
+}
+
+.eth-to-bnb,
+.bnb-to-eth,
+.dashboard,
+.wallet-connection {
+  justify-content: center;
+  align-items: center;
+}
+
+.input-area,
+.button-area {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.adfloki {
+  position: absolute;
+  left: -50px;
+  bottom: -30px;
+  animation-name: perform;
+  animation-duration: 2s;
+}
+
+@keyframes perform {
+  0% {
+    bottom: -1000px;
+  }
+  50% {
+    bottom: -30px;
+  }
+
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  55% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+
+  65% {
+    transform: translateX(15px) rotate(6deg);
+  }
+
+  75% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+
+  85% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+
+  95% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+.text {
+  margin-top: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  color: #34343a;
+  text-align: left;
+}
+
+.social-area {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.dashboard-section {
+  width: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us {
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about-redfloki {
+  height: 100%;
+  justify-content: space-between;
+  width: 30%;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.sub-text {
+  font-size: 16px;
+  word-break: break-all;
+}
+
+.h3 {
+  font-size: 24px;
+}
+
+.red {
+  color: red;
+}
+
+.social-link {
+  height: 100%;
+  font-size: 18px;
+  color: #34343a;
+  justify-content: space-between;
+}
+
+.social-link > a {
+  text-decoration: none;
+  color: #34343a;
+}
+
+.contact-us > div > div,
+.contact-us > div > p {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.footer-bottom {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  background-color: red;
+  color: #ffffff;
+}
+
+.footer-title {
+  margin: 0 auto;
+}

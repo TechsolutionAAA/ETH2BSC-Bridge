@@ -1,0 +1,116 @@
+@media screen and (max-width: 1240px) {
+  .h1,
+  .h2 {
+    font-size: 5vw !important;
+  }
+
+  .main-stack-color {
+    margin-top: 100px;
+  }
+
+  .text {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bridge-header {
+    flex-direction: column;
+  }
+
+  .h1 {
+    font-size: 5vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bridge-workspace {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn {
+    width: 30vw;
+    font-size: 4vw !important;
+  }
+
+  .text,
+  .h1 {
+    word-break: break-all;
+    width: 100%;
+  }
+
+  .social-area {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-area img {
+    width: 100%;
+  }
+
+  .social-link {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-us > div > div,
+  .contact-us > div > p,
+  .contact-us > div > a {
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
+
+  .contact-us {
+    padding-left: 0;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-redfloki {
+    width: 80%;
+  }
+
+  .about-redfloki > div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .button-area {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-redfloki img {
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .main-stack-color {
+    margin-top: 150px;
+  }
+  .h1 {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

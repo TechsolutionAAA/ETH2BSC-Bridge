@@ -1,0 +1,146 @@
+.btn {
+  box-shadow: inset 0px 1px 0px 0px #f29c93;
+  background: linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+  background-color: #fe1a00;
+  border-radius: 4px;
+  border: 1px solid #d83526;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin: 3% 5px;
+  text-decoration: none;
+  text-shadow: 0px 3px 0px #b23e35;
+  transition: 0.5s;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+  background-color: #ce0100;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.btn-disabled {
+  cursor: default;
+}
+
+.btn-disabled:hover {
+  background: linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+  background-color: #fe1a00;
+}
+
+.btn-disabled:active {
+  position: relative;
+  top: 0px;
+}
+
+button span {
+  position: relative;
+  top: 0.63em;
+  display: inline-block;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: rotateX(-90deg);
+}
+
+._loader {
+  position: absolute relative;
+  margin: 0;
+  padding: 0;
+}
+
+.let1 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.let2 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.3s;
+}
+
+.let3 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.4s;
+}
+
+.let4 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+.let5 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.6s;
+}
+
+.let6 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.7s;
+}
+
+.let7 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.8s;
+}
+
+.let8 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.9s;
+}
+
+.let9 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+.let10 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 2.1s;
+}
+
+.let11 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 2.2s;
+}
+
+.let12 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 2.3s;
+}
+
+.let13 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 2.4s;
+}
+@keyframes drop {
+  10% {
+    opacity: 0.5;
+    top: -1em;
+  }
+  20% {
+    opacity: 1;
+    top: 0em;
+    transform: rotateX(-360deg);
+  }
+  80% {
+    opacity: 1;
+    top: 0em;
+    transform: rotateX(-360deg);
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    top: 2.94em;
+  }
+}

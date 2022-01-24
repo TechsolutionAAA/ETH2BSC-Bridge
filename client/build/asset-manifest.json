@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb0a61f2.chunk.css",
+    "main.js": "/static/js/main.62b66322.chunk.js",
+    "main.js.map": "/static/js/main.62b66322.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ffbbc1d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ffbbc1d1.js.map",
+    "static/css/2.0971eb77.chunk.css": "/static/css/2.0971eb77.chunk.css",
+    "static/js/2.31ec33f7.chunk.js": "/static/js/2.31ec33f7.chunk.js",
+    "static/js/2.31ec33f7.chunk.js.map": "/static/js/2.31ec33f7.chunk.js.map",
+    "static/js/3.70404018.chunk.js": "/static/js/3.70404018.chunk.js",
+    "static/js/3.70404018.chunk.js.map": "/static/js/3.70404018.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0971eb77.chunk.css.map": "/static/css/2.0971eb77.chunk.css.map",
+    "static/css/main.cb0a61f2.chunk.css.map": "/static/css/main.cb0a61f2.chunk.css.map",
+    "static/js/2.31ec33f7.chunk.js.LICENSE.txt": "/static/js/2.31ec33f7.chunk.js.LICENSE.txt",
+    "static/media/Instagram.80807d62.svg": "/static/media/Instagram.80807d62.svg",
+    "static/media/Telegram.b8b437ff.svg": "/static/media/Telegram.b8b437ff.svg",
+    "static/media/Twitter.36331815.svg": "/static/media/Twitter.36331815.svg",
+    "static/media/logo.5137f794.svg": "/static/media/logo.5137f794.svg",
+    "static/media/redfloki.53659313.svg": "/static/media/redfloki.53659313.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffbbc1d1.js",
+    "static/css/2.0971eb77.chunk.css",
+    "static/js/2.31ec33f7.chunk.js",
+    "static/css/main.cb0a61f2.chunk.css",
+    "static/js/main.62b66322.chunk.js"
+  ]
+}

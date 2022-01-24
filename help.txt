@@ -1,0 +1,18 @@
+Chain Bridge Manual
+
+1. Deploy TokenBase and BSC/ETH tokens.
+2. Deploy BSC/ETH Bridge with BSC/ETH toeken address.
+3. Mint tokens to owner's wallet.
+4. Update admin of tokens with bridge address.
+5. Write deployed addresses in 'config.json' of Front-end.
+6. Write content of abis to json files('BridgeBsc.json', 'BscToken.json', 'EthBridge.json', 'EthToken.json').
+7. Set providers and server's public key to 'net.config.json' file.
+8. Set server's private key in 'secret' file.
+
+
+Verified URLs:
+
+1. Token for Eth: https://rinkeby.etherscan.io/address/0xa11A01394CAFCBe404022D9a257Bf06014B85995#code 
+2. Bridge for Eth: https://rinkeby.etherscan.io/address/0x97A87551F49dBA935D3CF24776D6dDA2f26167fa#code 
+3. Token for Bsc: https://testnet.bscscan.com/address/0x592Dd2829CE558913675f4A52Cec01844857E073#code 
+4. Bridge for Bsc: https://testnet.bscscan.com/address/0xdC386d952fEe2649d1d58ED25f6C6F41fF43C1Da#code
